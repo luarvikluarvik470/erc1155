@@ -2,10 +2,10 @@ pragma solidity ^0.5.16;
 
 // via https://github.com/ProjectOpenSea/opensea-erc1155/blob/master/contracts/ERC1155Tradable.sol
 
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
-import 'multi-token-standard/contracts/tokens/ERC1155/ERC1155.sol';
-import 'multi-token-standard/contracts/tokens/ERC1155/ERC1155Metadata.sol';
-import 'multi-token-standard/contracts/tokens/ERC1155/ERC1155MintBurn.sol';
+import "./Ownable.sol";
+import './ERC1155.sol';
+import './ERC1155Metadata.sol';
+import './ERC1155MintBurn.sol';
 import "./Strings.sol";
 
 contract OwnableDelegateProxy { }
