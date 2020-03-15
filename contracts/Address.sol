@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 
-// via https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol
+// via https://github.com/arcadeum/multi-token-standard/blob/master/contracts/utils/Address.sol
 
 /**
  * Utility library of inline functions on addresses
