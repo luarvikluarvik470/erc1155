@@ -2,7 +2,7 @@ pragma solidity ^0.6.0;
 
 // via https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/ownership/Ownable.sol
 
-import "../GSN/Context.sol";
+import "./Context.sol";
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
