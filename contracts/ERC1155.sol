@@ -2,11 +2,11 @@ pragma solidity ^0.5.16;
 
 // via https://github.com/arcadeum/multi-token-standard/blob/master/contracts/tokens/ERC1155/ERC1155.sol
 
-import "../../interfaces/IERC165.sol";
-import "../../utils/SafeMath.sol";
-import "../../interfaces/IERC1155TokenReceiver.sol";
-import "../../interfaces/IERC1155.sol";
-import "../../utils/Address.sol";
+import "./IERC165.sol";
+import "./SafeMath.sol";
+import "./IERC1155TokenReceiver.sol";
+import "./IERC1155.sol";
+import "./Address.sol";
 
 
 /**
