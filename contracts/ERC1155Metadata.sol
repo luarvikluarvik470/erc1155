@@ -2,7 +2,7 @@ pragma solidity ^0.5.16;
 
 // via https://github.com/arcadeum/multi-token-standard/blob/master/contracts/tokens/ERC1155/ERC1155Metadata.sol
 
-import "../../interfaces/IERC1155.sol";
+import "./IERC1155.sol";
 
 
 /**
